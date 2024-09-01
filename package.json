@@ -1,0 +1,44 @@
+{
+  "name": "green-tunnel",
+  "version": "1.8.3",
+  "description": "",
+  "keywords": [
+    "HTTPS",
+    "SNI",
+    "VPN"
+  ],
+  "main": "src/index.cjs.js",
+  "module": "src/index.js",
+  "bin": {
+    "green-tunnel": "bin/gt.js",
+    "gt": "bin/gt.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "consola": "^2.11.0",
+    "debug": "^4.1.1",
+    "node-localstorage": "^2.1.5",
+    "ora": "^3.2.0",
+    "std-env": "^2.2.1",
+    "universal-analytics": "^0.4.20",
+    "update-notifier": "^2.5.0",
+    "dns-over-http": "^0.1.2",
+    "dns-over-tls": "0.0.6",
+    "dns-socket": "^4.2.2",
+    "esm": "^3.2.22",
+    "is-docker": "^2.0.0",
+    "lru-cache": "^5.1.1",
+    "validator": "^10.11.0",
+    "winreg": "^1.2.4",
+    "app-data-folder": "^1.0.0",
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-xo": "^0.26.0"
+  }
+}
